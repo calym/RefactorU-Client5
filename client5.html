@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<link rel="stylesheet" type="text/css" href="normalize.css">
+ 	<link rel="stylesheet" type="text/css" href="client5.css">
+  <title>Client5</title>
+</head>
+<body>
+
+<div id="quoteForm">
+	<form>
+		Quote: <input type="text" name="quote" ><br>
+		Author: <input type="text" name="author" ><br>
+		Rating:<br>
+		<select id="rating">
+		  <option value="5">5 stars</option>
+		  <option value="4">4 stars</option>
+		  <option value="3">3 stars</option>
+		  <option value="2">2 stars</option>
+		  <option value="1">1 star</option>
+		</select>
+		<br>
+		<input type="submit" value="Submit" id="submitQuote">
+		<br>
+		<input type="button" value="Quote List" id="quotebutton">
+		<br>
+		<input type="button" value="Random Quote" id="randomquote">
+
+	</form>
+</div>
+<div class="quoteBox"></div><div class="prependThis"></div><div class="list"></div>
+<div class = "popup"></div>
+
+</div>
+
+<!-- <div class="authorList"></div> -->
+
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="client5.js"></script>
+
+</body>
+</html>

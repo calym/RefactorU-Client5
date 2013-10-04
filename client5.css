@@ -1,0 +1,15 @@
+#quoteForm {
+	border: 1px solid black;
+	position: relative;
+	left: 30%;
+	top:100px;
+	width: 250px;
+}
+
+.quoteBox {
+	position: relative;
+	left: 30%;
+	top:300px;
+	width: 250px;
+	height: 200px;
+}
